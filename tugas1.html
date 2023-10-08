@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .item {
+            margin: 10px;
+        }
+
+        .center-text {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2 class="center-text">Menampilkan Video, Audio, dan Gambar dari Internet</h2>
+    
+    <div class="container">
+        <div class="item">
+            <p class="center-text">Video:</p>
+            <iframe width="645" height="352" src="https://www.youtube.com/embed/35fRPc38824" 
+            title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+        </div>
+        
+        <div class="item">
+            <p class="center-text">Gambar:</p>
+            <img width="645" height="352" src="https://img.freepik.com/free-photo/cyber-cat-with-giant-electro-flowers-sunrise-generative-ai_8829-2880.jpg" 
+            alt="AI Cat">
+        </div>
+    </div>
+    
+    <p class="center-text">Audio:</p>
+    <iframe src="https://open.spotify.com/embed/track/6MZoXnbjDE2VgUWeMJgrrn" 
+    width="100%" height="352" frameborder="0" allowfullscreen></iframe>
+</body>
+</html>
